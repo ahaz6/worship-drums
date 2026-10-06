@@ -1,0 +1,42 @@
+/* Worship Drums — shared Worship Suite tokens.
+ * Source: worship-keys at 985cc15845987aa5937d9fc4cdae878598ebf1e1.
+ * See docs/DESIGN.md for usage and decisions still open.
+ * Rail widths are reference values, not a committed product layout.
+ */
+:root {
+  color-scheme: dark;
+
+  --wd-bg-deep: #09090c;
+  --wd-bg: #0d0d12;
+  --wd-panel: #121216;
+  --wd-panel-raised: #17171e;
+  --wd-panel-active: #20202a;
+
+  --wd-text: #efeff4;
+  --wd-text-soft: #b5b3c1;
+  --wd-text-muted: #85858f;
+  --wd-text-faint: #62626c;
+
+  --wd-line: #292931;
+  --wd-line-strong: #353541;
+
+  --wd-violet: #7668b7;
+  --wd-violet-bright: #9d8cff;
+  --wd-indigo: #4e5fc6;
+  --wd-blue: #5d7fe6;
+  --wd-cyan-muted: #5b929d;
+  --wd-success: #67a89e;
+  --wd-warning: #c89b61;
+  --wd-danger: #c76f7b;
+
+  --wd-radius-control: 9px;
+  --wd-radius-card: 14px;
+  --wd-radius-modal: 20px;
+
+  --wd-rail-left: 268px;
+  --wd-rail-right: 300px;
+
+  --wd-motion: 170ms;
+  --wd-ease: cubic-bezier(0.32, 0.72, 0.35, 1);
+}
+
